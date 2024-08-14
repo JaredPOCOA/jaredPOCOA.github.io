@@ -3,31 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Interactive Website</title>
+    <title>My Website</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script defer src="doom.js"></script>
 </head>
 <body>
+     <!-- navigation Bar 1 page -->
     <div class="container">
         <div class="row navbar">
             <div class="col-8">
-                <img src="your-logo-url.jpg" alt="Logo" class="logo">
+                <img src="1722969984183-ee604296-cfd3-4870-9148-7af0cc83f3fc_1.jpg" alt="Logo" class="logo">
             </div>
             <div class="col"><a href="#" class="nav-link"> home </a></div>
             <div class="col"><a href="#" class="nav-link"> about </a></div>
             <div class="col contact"><a href="#" class="nav-link"> contact us</a></div>      
         </div>
     </div>
-
     <div class="container head"><h3> Welcome to my website</h3></div>
     <div class="row space2"></div>
     <div class="container"><h3> My services</h3></div>
     <div class="container">
-        <div class="row">
-            <div class="col"><div class="box po">My skills</div></div>
-            <div class="col"><div class="box pe"> My interest</div></div>
-            <div class="col"><div class="box pe"> My goals</div></div>
+  <div class="row">
+     <div class="col">
+       <div class="box po">
+        <h6>My skills</h6>
+      <ul id="hood">
+              <li>I have great communication</li>
+            <li>I am very teachable</li>
+           <li>I have great customer service and etc</li>
+             </ul>
+           </div>
+            </div>
+            <div class="col">
+                <div class="box pe">
+                    <h6>my interest</h6>
+                     <ul id="coom">
+                        <li> playing soccer</li>
+                        <li> coding</li>
+                        <li> getting money etc</li>
+                     </ul>
+                    </div>
+                </div>
+            <div class="col">
+                <div class="box pe">
+                     <h6>My goals</h6>
+                    <ul id="boom">
+                        <li> go to the airfoce for 4 year then collage</li>
+                        <li> become a software engineer</li>
+                        <li>become succesful</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -44,23 +71,142 @@
             </div>
             <div class="col">
                 <div class="box p1">
-                    <img src="your-image-url.jpg" alt="My Image" class="p1-image">
+                    <img src="download (18).jpeg" alt="My Image" class="p1-image">
                 </div>
             </div>
         </div>
     </div>
 
     <div class="row space3"></div>
-
+     <!-- navigation Bar 1 page -->
     <div class="container">
         <div class="row last">
             <div class="col-8">
-                <img src="your-logo-url.jpg" alt="Logo" class="logo">
+                <img src="1722969984183-ee604296-cfd3-4870-9148-7af0cc83f3fc_1.jpg" alt="logo" class="logo">
             </div>
             <div class="col"><a href="#" class="nav-link"> home </a></div>
             <div class="col"><a href="#" class="nav-link"> about </a></div>
             <div class="col contact"><a href="#" class="nav-link"> contact us</a></div> 
         </div>
     </div>
+     
+    <div class="row space4"></div>
+
+     <!-- navigation Bar 2 page -->
+     <div class="container">
+        <div class="row navbar">
+            <div class="col-8">
+                <img src="1722969984183-ee604296-cfd3-4870-9148-7af0cc83f3fc_1.jpg" alt="logo" class="logo">
+            </div>
+            <div class="col"><a href="index.html" class="nav-link">home</a></div>
+            <div class="col"><a href="#" class="nav-link">about</a></div>
+            <div class="col contact"><a href="#" class="nav-link">contact us</a></div>      
+        </div>
+    </div>
+   
+    <div class="row space5"></div>
+     
+    <!-- cristian section -->
+    <section class="cristian">
+        <div class="container text-center">
+            <h1>Welcome to Our Clothing Store</h1>
+            <p>Fashion that speaks to you</p>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+     <section class="featured-products">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2>Featured Products</h2>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-4">
+                        <div class="product-box1">
+                            <div class="image-container">
+                                <img src="download (12).jpeg" alt="Product 1" class="product-image active">
+                                <img src="download (13).jpeg" alt="Product 1 - Image 2" class="product-image">
+                                <img src="download (14).jpeg" alt="Product 1 - Image 3" class="product-image">
+                                <div class="arrow prev" onclick="changeImage(this, -1)">&#10094;</div>
+                                <div class="arrow next" onclick="changeImage(this, 1)">&#10095;</div>
+                            </div>
+                            <h6>T-Shirt</h6>
+                            <p>$25.00</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-box">
+                            <div class="image-container">
+                                <img src="download (11).jpeg" alt="Product 2" class="product-image active">
+                                <img src="download (15).jpeg" alt="Product 2 - Image 2" class="product-image">
+                                <img src="images (2).jpeg" alt="Product 2 - Image 3" class="product-image">
+                                <div class="arrow prev" onclick="changeImage(this, -1)">&#10094;</div>
+                                <div class="arrow next" onclick="changeImage(this, 1)">&#10095;</div>
+                            </div>
+                            <h6>Hoodie</h6>
+                            <p>$60.00</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="product-box">
+                            <div class="image-container">
+                                <img src="images (1).jpeg" alt="Product 3" class="product-image active">
+                                <img src="download (16).jpeg" alt="Product 3 - Image 2" class="product-image">
+                                <img src="download (17).jpeg" alt="Product 3 - Image 3" class="product-image">
+                                <div class="arrow prev" onclick="changeImage(this, -1)">&#10094;</div>
+                                <div class="arrow next" onclick="changeImage(this, 1)">&#10095;</div>
+                            </div>
+                            <h6>Crew Neck</h6>
+                            <p>$30.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <div class="row space6"></div>
+
+    <div class="container">
+    <div class="row lay">
+        <h2>Layout</h2>
+    </div>
+
+    <div class="row space6"></div>
+
+
+    <div class="container">
+        <div class="row">
+           <div class="col">
+             <div class="box no">
+                <img src="Component 2.png" alt="wireframe" class="product-image5">
+             </div>
+                  </div>
+                  <div class="col">
+                      <div class="box ne">
+                        <img src="Component 4.png" alt="wireframe" class="product-image5">
+                      </div>
+                      </div>
+                  
+                  </div>
+              </div>
+          </div>
+      
+
+    
+<div class="container">
+    <div class="row navbar10">
+        <div class="col-8">
+            <img src="1722969984183-ee604296-cfd3-4870-9148-7af0cc83f3fc_1.jpg" alt="logo" class="logo">
+        </div>
+        <div class="col"><a href="index.html" class="nav-link">home</a></div>
+        <div class="col"><a href="#" class="nav-link">about</a></div>
+        <div class="col contact"><a href="#" class="nav-link">contact us</a></div>      
+    </div>
+</div>
+
+
 </body>
 </html>
